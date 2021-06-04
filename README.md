@@ -10,11 +10,12 @@ Header file for using threads in both C and C++ by John Wolf
 ***
 # 1. Usage
 ## Creating a Thread:
+To create a thread in C:
 ``` c
 struct Thread threadName = makeThread(functionName, arguments...);
 ```
-``` cpp
 To create a thread in C++:
+``` cpp
 Thread threadName = makeThread(functionName, arguments...);
 ```
 ## Joining a Thread:
