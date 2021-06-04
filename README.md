@@ -40,7 +40,7 @@ int numberOfCores = coreCount();
 	* There are plans to make sure that each thread is automatically joined if one is forgotten
 2. Make sure that your machine can handle multithreading
 	* Remember that the thread limit is only a guideline, your machine may not be able to handle multithreading
-	* More information on threads can be found <a href="https://cplusplus.com/reference/thread/thread>here<a/>
+	* More information on threads can be found <a href="https://cplusplus.com/reference/thread/thread">here<a/>
 # 3. Bug Reporting
 To report a bug, please email jjwolf0330@tutanota.com and try to include the following:
 1. The bug in question
