@@ -1,5 +1,5 @@
-# Thread Header File -- Version 0.0.1
-Header file for using threads. Compatible with both C and C++ by John Wolf
+# Thread Header File -- Version 0.0.1 by John Wolf
+Header file for using threads. Compatible with both C and C++. This program is only compatible if your program is compiled with g++. This will not work with gcc
 
 # Please view the LICENSE.txt file before use
 
