@@ -1,5 +1,5 @@
 # Thread Header File -- Version 0.0.1
-Header file for using threads in both C and C++ by John Wolf
+Header file for using threads. Compatible with both C and C++ by John Wolf
 
 # Please view the LICENSE.txt file before use
 
