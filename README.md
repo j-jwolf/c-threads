@@ -49,5 +49,5 @@ To report a bug, please email jjwolf0330@tutanota.com and try to include the fol
 	* If you cannot find the exact steps, try to include details of how the bug was encountered
 3. The operating system the bug was encountered on
 4. Optionally, the compiler you compiled your program with
-	* This program was tested on Windows 10 with the MinGW-64 compiler
+	* This program was tested on Windows 10 with the MinGW-64 compiler in both GitBash and PowerShell
 ***
