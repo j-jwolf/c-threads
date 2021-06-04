@@ -9,6 +9,16 @@ Header file for using threads in both C and C++ by John Wolf
 3. Bug Reporting
 ***
 # 1. Usage
+## Using the header file in your project:
+To use the header file, download the header file and either copy it directly into your project folder or include it via path to the file
+### Directly in the source code folder:
+``` c
+#include "threads.h"
+```
+### Path to file:
+``` c
+#include "path/from/src/directory/threads.h"
+```
 ## Creating a Thread:
 To create a thread in C:
 ``` c
