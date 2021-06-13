@@ -48,7 +48,8 @@ int numberOfCores = coreCount();
 * This is niche but included just in case
 # 2. Troubleshooting
 1. Make sure that every thread is joined back into the program at some point
-	* There are plans to make sure that each thread is automatically joined if one is forgotten
+	* This program will automatically join any threads that are left unjoined after the program ends
+		+ This may cause issues with the code still if there is any code that is dependent on the threads
 2. Make sure that your machine can handle multithreading
 	* Remember that the thread limit is only a guideline, your machine may not be able to handle multithreading
 	* More information on threads can be found <a href="https://cplusplus.com/reference/thread/thread">here<a/>
