@@ -4,7 +4,6 @@
 #include <thread>
 #include <memory>
 #include <vector>
-#include <cstdio>
 using namespace std;
 
 // global variables
@@ -22,7 +21,6 @@ struct Thread // If modifying this code, be aware that adding any methods to thi
 // for catching unjoined threads
 auto deleter = [](Thread* t)
 {
-	puts("In Ptr deleter\n");
 	fflush(stdout);
 	try
 	{
